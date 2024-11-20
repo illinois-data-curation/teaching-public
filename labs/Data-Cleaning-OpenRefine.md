@@ -81,7 +81,7 @@ The Undo/Redo history provides not only a way to undo cleaning operations, but t
 
 Inspect the Undo/Redo history. Later in the lab, you will export it as part of your submission.
 
-## 7. Column Transformations
+### 6.3 Column Transformations
 
 Select the arrow on the column and select **Edit Column** .Common operations include:
 * Splitting a column into multiple columns
@@ -92,7 +92,7 @@ Activity:
 * Rename the first column to `City`, second column to `State`, and third column to `Zip`
 
 
-## 8. Identifying Errors
+### 6.4 Identifying Errors
 
 While applying transformations is easy, identifying errors encountered during transformation is not as obvious.
 
@@ -102,7 +102,7 @@ Convert the `License` column to number (**Edit Cells> Common transformations > T
 * As an alternative, on the `License` column select **Sort...** and drag the Errors to the top or bottom. In OR, your dataset will now be sorted with non-numeric values at the top.
 
 
-## 9. Clustering and Merging
+### 6.5 Clustering and Merging
 
 Clustering and merging of variant spellings is a powerful tool in OpenRefine.
 
@@ -115,7 +115,7 @@ Clustering and merging of variant spellings is a powerful tool in OpenRefine.
 * Select **Merge selected & re-cluster** 
 
 
-## 10. Export
+## 7. Export
 
 Export youar cleaned dataset as `food-inspection-clean.csv` and the OpenRefine Undo/Redo history as `food-inspection-history.json` and save these to your `Data_Cleaning_Lab`folder.
 
