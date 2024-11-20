@@ -1,6 +1,6 @@
-# Lab 7: Data Profiling and Cleaning with OpenRefine
+# Introduction to Data Cleaning with OpenRefine
 
-Sometimes the data we work with isn’t just messy, it’s dirty. Wickham’s concept of messy and tidy data addresses how data can be structured for analysis, but does not consider fundamental quality issues in the data itself. Dirty data, on the other hand, may contain a variety of errors, such as malformatted values, typographical errors, or other inconsistencies. Before we can tidy our data and prepare it for analysis, we need to do the important work of identifying and correcting errors in the data that affect quality and might impact our analysis. 
+Sometimes the data we work with isn’t just "messy" (in the sense of Wickham's concept of messy vs _tidy_ data), it’s in fact "_dirty_". While Wickham’s tidy data addresses how data can be structured for analysis, it does not consider fundamental _data quality_ issues. Dirty data, on the other hand, may contain a variety of errors, such as malformatted values, typographical errors, or other inconsistencies. Before we can tidy our data and prepare it for analysis, we need to do the important work of identifying and correcting errors in the data that affect quality and might impact our analysis. 
 
 OpenRefine is an open-source tool for interactively profiling, transforming, and cleaning data. While OpenRefine is interactive, it also supports tracking and exporting actions that can be reapplied to original data (transparent and reproducible data cleaning)
 
